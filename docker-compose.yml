@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  front-node:
+    build: .
+    container_name: front_node_app
+    ports:
+      - "8080:80"
+    restart: always
